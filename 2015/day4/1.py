@@ -4,13 +4,12 @@ import hashlib
 str2hash = "yzbqklnj"
 check = "000000"
   
-# encoding GeeksforGeeks using encode()
+# encoding str2hash using encode()
 # then sending to md5()
 
   
 class InfIter:
-    """Infinite iterator to return all
-        odd numbers"""
+    """Infinite iterator to return all numbers"""
 
     def __iter__(self):
         self.num = 1
@@ -31,5 +30,6 @@ while True:
         str2hash = "yzbqklnj"
         continue
     else:
+        #printing the result number
         print(n)
         break
